@@ -33,6 +33,7 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/hammerhead/overlay
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
+    OmaDmclient \
     TimeService
 
 $(call inherit-product, vendor/lge/hammerhead/hammerhead-vendor-blobs.mk)
